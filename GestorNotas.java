@@ -64,7 +64,7 @@ public class GestorNotas {
         notas.add(nota);
         System.out.println("Estudiante agregado correctamente.");
     }
-
+    // Muestra todos los estudiantes registrados con sus notas
     static void listarEstudiantes() {
         if (nombres.isEmpty()) {
             System.out.println("No hay estudiantes registrados.");
