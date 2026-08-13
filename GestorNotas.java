@@ -52,7 +52,7 @@ public class GestorNotas {
         System.out.println("6. Salir");
         System.out.print("Seleccione una opción: ");
     }
-
+    // Permite registrar un nuevo estudiante con su nombre y nota
     static void agregarEstudiante() {
         System.out.print("Nombre del estudiante: ");
         String nombre = sc.nextLine();
