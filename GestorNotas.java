@@ -75,7 +75,7 @@ public class GestorNotas {
             System.out.println((i + 1) + ". " + nombres.get(i) + " - Nota: " + notas.get(i));
         }
     }
-
+    // Calcula el promedio de notas de todos los estudiantes
     static void calcularPromedio() {
         if (notas.isEmpty()) {
             System.out.println("No hay notas registradas.");
