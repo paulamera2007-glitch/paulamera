@@ -52,13 +52,18 @@ public class GestorNotas {
         System.out.println("6. Salir");
         System.out.print("Seleccione una opción: ");
     }
-    // Permite registrar un nuevo estudiante con su nombre y nota
+  // Permite registrar un nuevo estudiante con su nombre y nota
     static void agregarEstudiante() {
         System.out.print("Nombre del estudiante: ");
         String nombre = sc.nextLine();
         System.out.print("Nota (0.0 - 5.0): ");
         double nota = sc.nextDouble();
         sc.nextLine();
+
+        if (nota < 0.0 || nota > 5.0) {
+            System.out.println("Nota invalida. Debe estar entre 0.0 y 5.0.");
+            return;
+        }
 
         nombres.add(nombre);
         notas.add(nota);
