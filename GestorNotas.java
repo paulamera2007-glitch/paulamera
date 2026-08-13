@@ -9,6 +9,8 @@ public class GestorNotas {
 
     public static void main(String[] args) {
         int opcion;
+        System.out.println("Bienvenido al Gestor de Notas de Estudiantes");
+
 
         do {
             mostrarMenu();
