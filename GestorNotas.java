@@ -93,7 +93,7 @@ public class GestorNotas {
         double promedio = suma / notas.size();
         System.out.printf("Promedio del curso: %.2f%n", promedio);
     }
-
+    // Busca un estudiante por nombre y muestra su nota
     static void buscarEstudiante() {
         System.out.print("Nombre a buscar: ");
         String nombre = sc.nextLine();
@@ -105,7 +105,7 @@ public class GestorNotas {
             System.out.println(nombres.get(index) + " tiene nota: " + notas.get(index));
         }
     }
-
+    // Elimina a un estudiante de la lista por nombre
     static void eliminarEstudiante() {
         System.out.print("Nombre a eliminar: ");
         String nombre = sc.nextLine();
